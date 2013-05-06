@@ -1,9 +1,9 @@
-%!PS-Adobe-3.0 EPSF-3.0
+%!PS-Adobe-3.0
 %%Title: JX12.ps
 %%Creator: XCircuit v3.7 rev26
-%%CreationDate: Sat May  4 21:43:52 2013
-%%Pages: 1
-%%BoundingBox: 68 68 1408 1569
+%%CreationDate: Mon May  6 16:17:01 2013
+%%Pages: 2
+%%BoundingBox: 0 0 612 792
 %%DocumentNeededResources: font Helvetica Helvetica-Bold Helvetica-Oblique 
 %%+ font Helvetica-BoldOblique Times-Roman Times-Italic Times-BoldItalic 
 %%EndComments
@@ -393,6 +393,42 @@ begingate
 endgate
 } def
 
+/analog::nmos {
+begingate
+1 1.000 0 -64 0 -28 -32 -28 -32 28 0 28 0 64 6 polygon
+1 1.000 -44 -28 -44 28 2 polygon
+1 1.000 -44 0 -64 0 2 polygon
+1.000 0.000 0.000 scb
+(G) {/Times-Roman cf} 2 7 0 1.000 -64 0 pinlabel
+(S) {/Times-Roman cf} 2 13 0 1.000 0 -64 pinlabel
+(D) {/Times-Roman cf} 2 9 0 1.000 0 64 pinlabel
+0.180 0.545 0.341 scb
+(spice:M%i %pD %pG %pS GND nmos) {/Times-Roman cf} 2 4 0 1.000 -244 -139 
+infolabel
+(sim:n %pG %pS %pD) {/Times-Roman cf} 2 4 0 1.000 -244 -187 infolabel
+endgate
+} def
+
+/analog::pmos2 {
+begingate
+1.000 0 0 0 analog::nmos
+1.000 270 -32 28 generic::arrowhead
+1.000 0.000 0.000 scb
+(G) {/Times-Roman cf} 2 7 0 1.000 -64 0 pinlabel
+(S) {/Times-Roman cf} 2 9 0 1.000 0 64 pinlabel
+(D) {/Times-Roman cf} 2 13 0 1.000 0 -64 pinlabel
+endgate
+} def
+
+/generic::dot {
+% trivial
+begingate
+248 1.000 0 0 6 0.000 360.000 xcarc
+1.000 0.000 0.000 scb
+(x) {/Times-Roman cf} 2 29 0 1.000 0 0 pinlabel
+endgate
+} def
+
 
 %%EndSetup
 
@@ -689,7 +725,7 @@ sce
 (1u) {/Times-Roman cf} 2 16 0 0.500 688 -3248 label
 (250V) {/Times-Italic cf} 2 16 0 0.500 256 -3264 label
 (200V) {/Times-Italic cf} 2 16 0 0.500 688 -3280 label
-(410) {/Times-Roman cf} 2 16 0 0.500 336 -3072 label
+(270) {/Times-Roman cf} 2 16 0 0.500 336 -3072 label
 1 1.000 520 -3184 528 -3168 2 polygon
 1 1.000 463 -3200 471 -3184 2 polygon
 1 1.000 462 -3296 470 -3280 2 polygon
@@ -708,45 +744,12 @@ sce
 1 1.000 224 -2064 224 -1920 2 polygon
 (470u) {/Times-Roman cf} 2 16 0 0.500 256 -1888 label
 (350V) {/Times-Italic cf} 2 16 0 0.500 256 -1920 label
-sce
--1.000 270 368 -1760 euro::R
--1.000 270 368 -1472 euro::R
-0.000 0.000 0.000 scb
-1 1.000 304 -1760 224 -1760 2 polygon
 1 1.000 304 -1472 224 -1472 224 -1760 3 polygon
 (90V) {/Helvetica cf} 2 16 0 1.000 -176 -2992 label
 (0.1A) {/Helvetica cf} 2 16 0 1.000 -176 -3024 label
 (210V) {/Helvetica cf} 2 16 0 1.000 -192 -1632 label
 (0.3A) {/Helvetica cf} 2 16 0 1.000 -192 -1680 label
-1.000 0 512 -2048 analog::gnd
-1 1.000 512 -1856 512 -1792 2 polygon
--1.000 0 512 -1888 euro::ELCO
-1 1.000 512 -2064 512 -1920 2 polygon
-(100u) {/Times-Roman cf} 2 16 0 0.500 544 -1888 label
-(350V) {/Times-Italic cf} 2 16 0 0.500 544 -1920 label
-1.000 0 512 -1664 analog::gnd
-1 1.000 512 -1536 512 -1472 2 polygon
--1.000 0 512 -1566 euro::ELCO
-(100u) {/Times-Roman cf} 2 16 0 0.500 544 -1568 label
-(350V) {/Times-Italic cf} 2 16 0 0.500 544 -1600 label
-1 1.000 512 -1808 512 -1760 448 -1760 3 polygon
-1 1.000 512 -1680 512 -1616 2 polygon
-1 1.000 512 -1472 448 -1472 2 polygon
-1 1.000 608 -1488 608 -1440 2 polygon
-1 1.000 512 -1472 608 -1472 2 polygon
-1 1.000 608 -1776 608 -1728 2 polygon
-1 1.000 512 -1760 608 -1760 2 polygon
-sce
-(+250V) {/Helvetica-BoldOblique cf} 2 16 0 0.700 624 -1472 label
-(+250V) {/Helvetica-BoldOblique cf} 2 16 0 0.700 624 -1760 label
-0.000 0.000 0.000 scb
-(220) {/Times-Roman cf} 2 16 0 0.500 352 -1520 label
-(5W) {/Times-Italic cf} 2 16 0 0.500 352 -1552 label
-(220) {/Times-Roman cf} 2 16 0 0.500 352 -1808 label
-(5W) {/Times-Italic cf} 2 16 0 0.500 352 -1840 label
 1.000 0 224 -1760 euro::smalldot
-1.000 0 512 -1760 euro::smalldot
-1.000 0 512 -1472 euro::smalldot
 1.000 0 0 -2176 euro::smalldot
 1.000 0 0 -2448 euro::smalldot
 1.000 0 0 -2704 euro::smalldot
@@ -787,7 +790,65 @@ sce
 1 1.000 -64 480 -224 480 2 polygon
 1 1.000 -144 480 -144 496 -112 496 -160 496 4 polygon
 (+250V) {/Helvetica-BoldOblique cf} 2 16 0 0.700 -160 512 label
+0.000 0.000 0.000 scb
+(1W) {/Times-Italic cf} 2 16 0 0.500 336 -3152 label
+sce
+1.000 0 384 -1616 euro::R
+0.000 0.000 0.000 scb
+1.000 0 384 -1816 euro::D
+(50V) {/Times-Roman cf} 2 28 0 0.500 432 -1800 label
+1 1.000 351 -1784 359 -1800 2 polygon
+1 1.000 409 -1800 417 -1816 2 polygon
+1.000 0 384 -1976 euro::D
+(200V) {/Times-Roman cf} 2 28 0 0.500 432 -1960 label
+1 1.000 351 -1944 359 -1960 2 polygon
+1 1.000 409 -1960 417 -1976 2 polygon
+sce
+1 1.000 384 -1536 384 -1472 256 -1472 3 polygon
+1 1.000 384 -1696 384 -2064 2 polygon
+0.000 0.000 0.000 scb
+1.000 0 384 -2048 analog::gnd
+sce
+-1.000 270 512 -1712 euro::R
+0.000 0.000 0.000 scb
+1.000 180 656 -1904 euro::ELCO
+sce
+1 1.000 448 -1712 384 -1712 2 polygon
+1.000 270 656 -1472 analog::pmos2
+1 1.000 592 -1472 384 -1472 2 polygon
+1.000 0 656 -1616 euro::R
+1 1.000 656 -1872 656 -1664 2 polygon
+1 1.000 656 -1712 592 -1712 2 polygon
+0.000 0.000 0.000 scb
+1.000 0 656 -2048 analog::gnd
+sce
+1 1.000 656 -2080 656 -1936 2 polygon
+1 1.000 704 -1472 800 -1472 800 -1440 800 -1488 4 polygon
+(+250V) {/Helvetica-BoldOblique cf} 2 28 0 0.700 800 -1456 label
+(10k) {/Times-Roman cf} 2 16 0 0.500 416 -1616 label
+{/Helvetica cf} 1 16 0 1.000 688 -1616 label
+(1k) {/Times-Roman cf} 2 16 0 0.500 688 -1616 label
+(100k) {/Times-Roman cf} 2 16 0 0.500 496 -1680 label
+(15u) {/Times-Roman cf} 2 16 0 0.500 704 -1904 label
+0.000 0.000 0.000 scb
+(5W) {/Times-Italic cf} 2 16 0 0.500 320 -1984 label
+(5W) {/Times-Italic cf} 2 16 0 0.500 320 -1824 label
+sce
+(350V) {/Helvetica-Oblique cf} 2 16 0 0.500 704 -1936 label
+(IRF820) {/Helvetica cf} 2 16 0 0.500 704 -1504 label
+(15 C/W) {/Helvetica-Oblique cf} 2 16 0 0.500 624 -1456 label
 pgsave restore showpage
+% JX12.ps is_filename
+
+%%Page: 2 2
+%%PageOrientation: Portrait
+/pgsave save def bop
+1.0000 inchscale
+2.6000 setlinewidth 192 192 translate
+
+1.000 0 -1440 1040 generic::dot
+pgsave restore showpage
+% Page 10 is_filename
 
 %%Trailer
 XCIRCsave restore
