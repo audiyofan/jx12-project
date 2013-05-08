@@ -13,6 +13,7 @@
  [ ]  4×  resistor, 220K, 1%, 0.5W
  [ ]  4×  resistor, 12K, 1%, 1W
  [ ]  4×  potentiometer lin 2k
+ [ ]  2×  potentiometer log 47k
  [ ]  2×  resistor, 22K, 1%, 2W
  [ ]  4×  resistor, 10K
  [X]  2×  resistor, 1M
