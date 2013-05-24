@@ -94,7 +94,7 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="0">+250V</tspan>
 </text></g>
 <g transform="matrix( 0.5    0   -0  0.5 880 850)" fill="#000000" >
-<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">100k</tspan>
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">91k</tspan>
 </text></g>
 <g transform="matrix( 0.5    0   -0  0.5 2000 738)" fill="#000000" >
 <text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">12k</tspan>

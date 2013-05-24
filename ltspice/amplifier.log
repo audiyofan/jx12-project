@@ -2,42 +2,42 @@ Circuit: * Z:\home\greg\Documents\perso\électronique\jx12\ltspice\amplifier.asc
 
 Direct Newton iteration for .op point succeeded.
 Fourier components of V(cru)
-DC component:-0.0298
+DC component:-0.0308631
 
 Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
  Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
-    1   	1.000e+03	1.095e+01	1.000e+00	   -2.20°	    0.00°
-    2   	2.000e+03	3.170e-03	2.895e-04	   94.99°	   97.19°
-    3   	3.000e+03	3.618e-03	3.303e-04	    1.78°	    3.98°
-    4   	4.000e+03	4.831e-04	4.411e-05	 -148.26°	 -146.06°
-    5   	5.000e+03	6.962e-04	6.357e-05	  -16.98°	  -14.78°
-    6   	6.000e+03	2.098e-04	1.916e-05	  -69.72°	  -67.52°
-    7   	7.000e+03	1.033e-03	9.435e-05	  175.78°	  177.98°
-    8   	8.000e+03	1.296e-03	1.184e-04	    4.58°	    6.78°
-    9   	9.000e+03	1.182e-03	1.079e-04	  138.36°	  140.56°
-Total Harmonic Distortion: 0.048357%
+    1   	1.000e+03	1.089e+01	1.000e+00	   -2.21°	    0.00°
+    2   	2.000e+03	3.667e-03	3.366e-04	   97.28°	   99.49°
+    3   	3.000e+03	6.449e-03	5.921e-04	    3.68°	    5.89°
+    4   	4.000e+03	5.989e-04	5.499e-05	  -61.64°	  -59.43°
+    5   	5.000e+03	4.049e-04	3.718e-05	 -175.54°	 -173.33°
+    6   	6.000e+03	5.511e-04	5.059e-05	   64.77°	   66.98°
+    7   	7.000e+03	5.018e-04	4.607e-05	   84.75°	   86.97°
+    8   	8.000e+03	5.086e-04	4.670e-05	  153.23°	  155.44°
+    9   	9.000e+03	5.311e-04	4.876e-05	 -170.73°	 -168.51°
+Total Harmonic Distortion: 0.069107%
 
 
 
-output_power_rms: RMS((v(cru))*i(r12))=9.17941 FROM 0 TO 0.003
+output_power_rms: RMS((v(cru))*i(r12))=9.07648 FROM 0 TO 0.05
 
 
-Date: Mon May 06 16:46:38 2013
-Total elapsed time: 28.205 seconds.
+Date: Thu May 23 22:55:30 2013
+Total elapsed time: 792.620 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 40690
-traniter = 40674
-tranpoints = 9606
-accept = 7214
-rejected = 2392
+totiter = 836557
+traniter = 836541
+tranpoints = 197087
+accept = 147765
+rejected = 49322
 matrix size = 58
 fillins = 58
 solver = Normal
-Thread vector: 612.3/356.1[2] 76.5/54.7[2] 129.5/57.4[2] 7.7/29.2[1]  2592/500
-Matrix Compiler1: 7,04 KB object code size  27.5/22.1/[15.8]
-Matrix Compiler2: 6,08 KB object code size  17.4/23.8/[11.3]
+Thread vector: 698.8/584.6[2] 46.1/351.1[1] 156.5/462.7[1] 6.9/95.4[1]  2592/500
+Matrix Compiler1: 7,04 KB object code size  18.5/16.2/[11.7]
+Matrix Compiler2: 6,08 KB object code size  9.6/13.2/[7.8]
 
 
