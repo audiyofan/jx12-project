@@ -4,7 +4,7 @@ JX12 is a secret audio project, this is why it has such stupid name.
 
 ## What is this secret audio project ?
 
-This work is based on an original idea from Arnaud Heagele on [René Cariou's forum](http://6bm8-lab.fr/phpBB/viewtopic.php?f=3&t=170 [6B8M]). This comes from a [Bell Lab patent](http://www.google.fr/patents?id=lTN8AAAAEBAJ&pg=PA2&hl=fr&source=gbs_selected_pages&cad=4#v=onepage&q&f=false [original patent description]) in the 70s.
+This work is based on an original idea from Arnaud Heagele on [René Conseil's forum](http://6bm8-lab.fr/phpBB/viewtopic.php?f=3&t=170 [6B8M]). This comes from a [Bell Lab patent](http://www.google.fr/patents?id=lTN8AAAAEBAJ&pg=PA2&hl=fr&source=gbs_selected_pages&cad=4#v=onepage&q&f=false [original patent description]) in the 70s.
 
 This is a very standard valve push pull amplifier using very common (and cheap) tubes. Instead of using a normal negative feedback it uses an extra valve to create a correction feedback. This particularity dramatically lowers the output impedance to levels rarely seen with valve amplifiers while not decreasing the gain. According Arnaud's experimentations, the output damping factor equals approximately the amplification factor of the correction tube. In this case, the 6N16B valve gives us an amplification factor of 20 which means a output impedance of 0,4Ω with 9,7W output power in 8Ω. 
 
