@@ -631,19 +631,12 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <path d="M1198,2624 L1234,2624 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1212,2638 L1220,2638 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1216,2386 L1216,2322 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1216,2464 L1216,2440 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1240,2440 L1192,2440 1192,2432 1240,2432 1240,2440 " fill="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1240,2416 L1192,2416 1192,2400 1240,2400 1240,2416 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1216,2400 L1216,2384 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<g transform="matrix(  -1    0   -0    1 1248 2400)" fill="#000000" >
-<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">+</tspan>
-</text></g>
 <path d="M1216,2594 L1216,2450 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<g transform="matrix( 0.8    0   -0  0.8 1248 2418)" fill="#000000" >
-<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">470u</tspan>
+<g transform="matrix( 0.8    0   -0  0.8 1264 2418)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">100u</tspan>
 </text></g>
-<g transform="matrix( 0.5    0   -0  0.5 1248 2450)" fill="#000000" >
-<text stroke="none" font-family="Times"  font-style="italic" font-size="40" ><tspan x="0" y="0">350V</tspan>
+<g transform="matrix( 0.5    0   -0  0.5 1264 2450)" fill="#000000" >
+<text stroke="none" font-family="Times"  font-style="italic" font-size="40" ><tspan x="0" y="0">500V</tspan>
 </text></g>
 <path d="M1296,2002 L1216,2002 1216,2290 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <g transform="matrix(   1    0   -0    1 816 3522)" fill="#000000" >
@@ -932,6 +925,13 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 </text></g>
 <g transform="matrix( 0.5    0   -0  0.5 1632 1522)" fill="#000000" >
 <text stroke="none" font-family="Helvetica"  font-style="oblique" font-size="40" ><tspan x="0" y="0">400v</tspan>
+</text></g>
+<path d="M1216,2354 L1216,2412 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1216,2482 L1216,2424 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1248,2424 L1184,2424 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1248,2412 L1184,2412 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.5    0   -0  0.5 1152 2402)" fill="#000000" >
+<text stroke="none" font-family="Times"  font-style="italic" font-size="40" ><tspan x="0" y="0">MKP</tspan>
 </text></g>
 </g>
 </svg>
