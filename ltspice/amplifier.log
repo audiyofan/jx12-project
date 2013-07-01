@@ -23,42 +23,42 @@ Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 Fourier components of V(cru)
-DC component:-0.00278032
+DC component:-0.00632757
 
 Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
  Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
-    1   	1.000e+03	4.361e+00	1.000e+00	   -0.51°	    0.00°
-    2   	2.000e+03	7.540e-04	1.729e-04	  153.41°	  153.92°
-    3   	3.000e+03	7.693e-04	1.764e-04	   17.58°	   18.09°
-    4   	4.000e+03	7.061e-05	1.619e-05	   -8.21°	   -7.70°
-    5   	5.000e+03	4.188e-04	9.605e-05	   95.20°	   95.71°
-    6   	6.000e+03	5.520e-04	1.266e-04	  155.94°	  156.45°
-    7   	7.000e+03	2.815e-04	6.456e-05	 -177.63°	 -177.12°
-    8   	8.000e+03	6.034e-04	1.384e-04	 -165.69°	 -165.18°
-    9   	9.000e+03	1.149e-03	2.634e-04	  -76.13°	  -75.62°
-Total Harmonic Distortion: 0.042335%
+    1   	1.000e+03	1.017e+01	1.000e+00	   -0.55°	    0.00°
+    2   	2.000e+03	4.465e-03	4.392e-04	  128.28°	  128.84°
+    3   	3.000e+03	9.820e-03	9.659e-04	   27.65°	   28.21°
+    4   	4.000e+03	5.279e-04	5.192e-05	 -120.28°	 -119.72°
+    5   	5.000e+03	2.562e-04	2.520e-05	  110.24°	  110.80°
+    6   	6.000e+03	5.831e-04	5.736e-05	 -169.05°	 -168.49°
+    7   	7.000e+03	1.335e-04	1.313e-05	  -77.62°	  -77.07°
+    8   	8.000e+03	4.752e-04	4.674e-05	  105.38°	  105.93°
+    9   	9.000e+03	1.104e-03	1.086e-04	 -115.94°	 -115.39°
+Total Harmonic Distortion: 0.107084%
 
 
 
-output_power_rms: RMS((v(cru))*i(r12))=1.45573 FROM 0 TO 0.005
+output_power_rms: RMS((v(cru))*i(r12))=7.90764 FROM 0 TO 0.005
 
 
-Date: Tue Jun 11 22:22:30 2013
-Total elapsed time: 63.693 seconds.
+Date: Thu Jun 27 12:58:00 2013
+Total elapsed time: 73.754 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 72463
-traniter = 70796
-tranpoints = 16694
-accept = 12536
-rejected = 4158
+totiter = 76265
+traniter = 74598
+tranpoints = 17577
+accept = 13193
+rejected = 4384
 matrix size = 66
 fillins = 137
 solver = Normal
-Thread vector: 474.7/385.9[2] 43.3/189.6[1] 46.9/105.9[1] 7.1/42.4[1]  2592/500
-Matrix Compiler1: 14,8 KB object code size  26.9/23.4/[20.0]
-Matrix Compiler2: 7,96 KB object code size  10.9/15.0/[8.8]
+Thread vector: 734.9/505.1[2] 45.2/180.9[1] 49.1/142.1[1] 7.1/1577.7[1]  2592/500
+Matrix Compiler1: 14,8 KB object code size  26.6/24.8/[19.4]
+Matrix Compiler2: 7,96 KB object code size  37.2/30.6/[9.5]
 
 
