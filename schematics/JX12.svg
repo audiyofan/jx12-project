@@ -86,13 +86,13 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="0">+250V</tspan>
 </text></g>
 <g transform="matrix( 0.8    0   -0  0.8 688 850)" fill="#000000" >
-<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">110k</tspan>
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">100k</tspan>
 </text></g>
 <g transform="matrix( 0.8    0   -0  0.8 2000 738)" fill="#000000" >
 <text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">12k</tspan>
 </text></g>
-<g transform="matrix( 0.8    0   -0  0.8 1632 194)" fill="#000000" >
-<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">47n</tspan>
+<g transform="matrix( 0.8    0   -0  0.8 1616 194)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">220n</tspan>
 </text></g>
 <g transform="matrix( 0.8    0   -0  0.8 1600 402)" fill="#000000" >
 <text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">470k</tspan>
@@ -141,7 +141,7 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">470k</tspan>
 </text></g>
 <g transform="matrix( 0.7    0   -0  0.7 1136  18)" fill="#000000" >
-<text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="0">+250V</tspan>
+<text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="0">+230V</tspan>
 </text></g>
 <g transform="matrix( 0.8    0   -0  0.8 1184 354)" fill="#000000" >
 <text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">24k</tspan>
@@ -200,8 +200,8 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <g transform="matrix( 0.8 -1.24688e-11 1.24688e-11  0.8 1431 1135)" fill="#000000" >
 <text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">100p</tspan>
 </text></g>
-<path d="M1357,1164 L1315,1122 " fill="none" stroke-width="1.6" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1326,1122 C1316,1118 1313,1116 1301,1108 C1309,1120 1311,1123 1315,1133 C1318,1128 1321,1125 1326,1122 " fill="#000000" stroke="none" />
+<path d="M1357,1180 L1315,1138 " fill="none" stroke-width="1.6" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1326,1138 C1316,1134 1313,1132 1301,1124 C1309,1136 1311,1139 1315,1149 C1318,1144 1321,1141 1326,1138 " fill="#000000" stroke="none" />
 <path d="M1152,284 A10,10 0 0,0 1152,264 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1152,264 L1152,258 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1152,284 L1152,290 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
@@ -236,8 +236,8 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <g transform="matrix( 0.8    0   -0  0.8 2000 1074)" fill="#000000" >
 <text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="26">12k</tspan>
 </text></g>
-<g transform="matrix( 0.8    0   -0  0.8 1632 1618)" fill="#000000" >
-<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="26">47n</tspan>
+<g transform="matrix( 0.8    0   -0  0.8 1616 1618)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="26">220n</tspan>
 </text></g>
 <g transform="matrix( 0.8    0   -0  0.8 1600 1410)" fill="#000000" >
 <text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="26">470k</tspan>
@@ -665,7 +665,7 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <path d="M736,50 L576,50 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M656,50 L656,34 688,34 640,34 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <g transform="matrix( 0.7    0   -0  0.7 640  18)" fill="#000000" >
-<text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="0">+250V</tspan>
+<text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="0">+230V</tspan>
 </text></g>
 <g transform="matrix( 0.5    0   -0  0.5 1328 3682)" fill="#000000" >
 <text stroke="none" font-family="Times"  font-style="italic" font-size="40" ><tspan x="0" y="0">5W</tspan>
@@ -682,8 +682,8 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <path d="M1648,2066 L1648,2106 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1632,2106 L1664,2106 1664,2186 1632,2186 1632,2106 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1648,2186 L1648,2226 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M2112,2002 L2208,2002 2208,1970 2208,2018 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<g transform="matrix( 0.7    0   -0  0.7 2208 1986)" fill="#000000" >
+<path d="M2576,2002 L2672,2002 2672,1970 2672,2018 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.7    0   -0  0.7 2672 1986)" fill="#000000" >
 <text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="26">+250V</tspan>
 </text></g>
 <g transform="matrix(   1    0   -0    1 1680 2146)" fill="#000000" >
@@ -829,7 +829,7 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">1k</tspan>
 </text></g>
 <g transform="matrix( 0.8    0   -0  0.8 592 1266)" fill="#000000" >
-<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">56p</tspan>
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">68p</tspan>
 </text></g>
 <ellipse cx="576" cy="1170" rx="4" ry="4" fill="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1152,466 L1210,466 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
@@ -852,12 +852,6 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <g transform="matrix( 0.8    0   -0  0.8 1184 530)" fill="#000000" >
 <text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">22n</tspan>
 </text></g>
-<path d="M1856,242 L1816,242 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1816,226 L1816,258 1736,258 1736,226 1816,226 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1736,242 L1696,242 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<g transform="matrix( 0.8    0   -0  0.8 1760 210)" fill="#000000" >
-<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">10k</tspan>
-</text></g>
 <path d="M432,466 L392,466 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M392,450 L392,482 312,482 312,450 392,450 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M312,466 L272,466 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
@@ -870,12 +864,6 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <path d="M1328,1218 L1328,1330 1120,1330 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1328,1058 L1328,1010 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1360,1010 L1312,1010 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<g transform="matrix( 0.8    0   -0  0.8 1760 1538)" fill="#000000" >
-<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">10k</tspan>
-</text></g>
-<path d="M1856,1570 L1816,1570 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1816,1554 L1816,1586 1736,1586 1736,1554 1816,1554 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1736,1570 L1696,1570 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1968,1186 L1696,1186 1696,1362 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1968,626 L1696,626 1696,450 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1584,242 L752,242 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
@@ -927,20 +915,6 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <path d="M1408,2290 L1408,2258 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <ellipse cx="1408" cy="2258" rx="4" ry="4" fill="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1376,2098 L1440,2098 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1776,2002 L2144,2002 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1896,2423 L1944,2423 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1904,2455 L1936,2455 1920,2423 1904,2455 " fill="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1920,2391 L1920,2423 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1920,2455 L1920,2487 " fill="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<g transform="matrix( 0.8    0   -0  0.8 1968 2394)" fill="#000000" >
-<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="26">9.1V</tspan>
-</text></g>
-<path d="M1888,2409 L1896,2423 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1944,2423 L1953,2440 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1920,2386 L1920,2290 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<g transform="matrix( 0.5    0   -0  0.5 1968 2450)" fill="#000000" >
-<text stroke="none" font-family="Times"  font-style="italic" font-size="40" ><tspan x="0" y="0">1.3W</tspan>
-</text></g>
 <g transform="matrix( 0.8    0   -0  0.8 1952 2162)" fill="#000000" >
 <text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">150k</tspan>
 </text></g>
@@ -948,20 +922,13 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <path d="M1904,2106 L1936,2106 1936,2186 1904,2186 1904,2106 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1920,2186 L1920,2226 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1920,2082 L1920,2002 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M1920,2226 L1920,2402 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1920,2466 L1920,2610 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1920,2578 L1920,2610 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1888,2610 L1952,2610 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1902,2624 L1938,2624 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1916,2638 L1924,2638 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1920,2290 L2080,2290 2080,2258 2080,2306 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<g transform="matrix( 0.8    0   -0  0.8 2096 2290)" fill="#000000" >
-<text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="0">HRef</tspan>
-</text></g>
 <path d="M992,2978 L1152,2978 1152,2946 1152,2994 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<g transform="matrix( 0.8    0   -0  0.8 1168 2978)" fill="#000000" >
-<text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="0">HRef</tspan>
-</text></g>
 <path d="M1872,4209 L1872,4241 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1840,4241 L1904,4241 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1854,4255 L1890,4255 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
@@ -1008,11 +975,11 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <path d="M1904,3633 L1904,3673 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1888,3673 L1920,3673 1920,3753 1888,3753 1888,3673 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M1904,3753 L1904,3793 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M2112,4143 L2112,4119 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M2136,4119 L2088,4119 2088,4111 2136,4111 2136,4119 " fill="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M2136,4095 L2088,4095 2088,4079 2136,4079 2136,4095 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<path d="M2112,4079 L2112,4063 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
-<g transform="matrix(  -1    0   -0    1 2144 4079)" fill="#000000" >
+<path d="M2112,4047 L2112,4071 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2088,4071 L2136,4071 2136,4079 2088,4079 2088,4071 " fill="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2088,4095 L2136,4095 2136,4111 2088,4111 2088,4095 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2112,4111 L2112,4127 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1 -7.793e-12 -7.793e-12   -1 2080 4111)" fill="#000000" >
 <text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">+</tspan>
 </text></g>
 <g transform="matrix( 0.8    0   -0  0.8 1936 3713)" fill="#000000" >
@@ -1068,5 +1035,70 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <text stroke="none" font-family="Times"  font-weight="bold"  font-style="italic" font-size="40" ><tspan x="0" y="0">-100V</tspan>
 </text></g>
 <path d="M1840,3634 L1488,3634 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2322,2130 L2304,2162 2286,2130 z" fill="#000000" stroke="none" />
+<path d="M2304,2098 L2304,2130 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2304,2194 L2304,2162 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2322,2162 L2286,2162 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2304,2578 L2304,2610 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2272,2610 L2336,2610 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2286,2624 L2322,2624 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2300,2638 L2308,2638 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2304,2274 L2304,2314 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2288,2314 L2320,2314 2320,2394 2288,2394 2288,2314 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2304,2394 L2304,2434 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2304,2434 L2304,2474 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2288,2474 L2320,2474 2320,2554 2288,2554 2288,2474 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2304,2554 L2304,2594 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.8    0   -0  0.8 2336 2370)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">150k</tspan>
+</text></g>
+<g transform="matrix( 0.8    0   -0  0.8 2336 2530)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">150k</tspan>
+</text></g>
+<path d="M2528,2178 L2528,2194 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2480,2178 L2576,2178 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2480,2130 L2506,2178 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2480,2130 L2464,2130 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2576,2130 L2550,2178 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2576,2130 L2592,2130 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2569,2158 C2570,2147 2571,2144 2576,2130 C2566,2141 2564,2144 2555,2150 C2561,2152 2565,2154 2569,2158 " fill="#000000" stroke="none" />
+<path d="M2304,2274 L2528,2274 2528,2194 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2464,2130 L2400,2130 2400,2002 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2576,2002 L1776,2002 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2304,2098 L2304,2002 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2304,2194 L2304,2274 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2576,2130 L2672,2130 2672,2098 2672,2146 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.7    0   -0  0.7 2672 2114)" fill="#000000" >
+<text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="26">+230V</tspan>
+</text></g>
+<path d="M2272,2106 L2272,2166 " fill="none" stroke-width="1.6" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2264,2158 C2269,2168 2269,2171 2272,2186 C2275,2171 2275,2168 2280,2158 C2274,2160 2270,2160 2264,2158 " fill="#000000" stroke="none" />
+<g transform="matrix( 0.8    0   -0  0.8 1952 2434)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">10k</tspan>
+</text></g>
+<path d="M1920,2338 L1920,2378 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1904,2378 L1936,2378 1936,2458 1904,2458 1904,2378 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1920,2458 L1920,2498 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1920,2354 L1920,2210 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.8    0   -0  0.8 2160 2146)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="0" y="0">0.8mA</tspan>
+</text></g>
+<g transform="matrix( 0.5    0   -0  0.5 2192 2178)" fill="#000000" >
+<text stroke="none" font-family="Times"  font-style="italic" font-size="40" ><tspan x="0" y="0">100V</tspan>
+</text></g>
+<path d="M1696,1570 L1856,1570 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1840,242 L1712,242 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.8    0   -0  0.8 2544 2210)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">MJE340</tspan>
+</text></g>
+<g transform="matrix( 0.5    0   -0  0.5 2832 1010)" fill="#000000" >
+<text stroke="none" font-family="Times"  font-style="italic" font-size="40" ><tspan x="0" y="0">MKP</tspan>
+</text></g>
+<g transform="matrix( 0.7    0   -0  0.7 1168 2962)" fill="#000000" >
+<text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="26">+15V</tspan>
+</text></g>
+<g transform="matrix( 0.7    0   -0  0.7 2096 2274)" fill="#000000" >
+<text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="26">+15V</tspan>
+</text></g>
 </g>
 </svg>
