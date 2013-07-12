@@ -16,11 +16,34 @@ The power supply is a critical part of this project and it deserves a lot of att
 
  * The correction valve: any noise from the PSU will find itself on this valve's anode hence re-injected on the 6N2P (high gain) triode's grid with the input signal.
  * The cathode follower: it is auto-biased and it creates the polarisation for the power tubes. A 1V shift from the PSU will result on power tubes 1V bias shift.
+ * The bandwidth of the amplifier is intentionally extended in the low frequencies to prevent motor-boating, the PSU must be able to handle low frequency response.
 
-Since the power tubes are pentodes, they are pretty immunised to noise except on their g2 grid. For the sake of simplicity it has been chosen to use a simple regulated power supply. Several of them have been tested but silicium is really sensitive to heat, this means no zener (unstable AND noisy) nor current diodes. The best choice is [Yves Monmagnon's regulated PSU](http://www.dissident-audio.com/RegulHT/Regul.html) which has been tested successfully to be reliable and stable in addition of beeing simple.
+Since the power tubes are pentodes, they are pretty immunised to noise except on their g2 grid. For the sake of simplicity it has been chosen to use a simple regulated power supply. Several of them have been tested but silicium is really sensitive to heat, this means no zener (unstable AND noisy) nor current diodes. The best choice is [Yves Monmagnon's regulated PSU](http://www.dissident-audio.com/RegulHT/Regul.html) which has been tested successfully to be reliable and stable in addition of being simple. 
 
-### Correction filters
+The proposed PSU is the first awkward attempt for this kind of amplifier. A complete redesign will be proposed for a version 2 using a choke. 
 
-The correction filters are really important since they directly determine what will be summed in the triode. As the output transformer is not linear, it has a great impact on the filters performances. The output transformer used is a DA17 from [bobinaudio](http://montagnaise.free.fr/transformateurs.html). The potentiometer is here to fine tune the bandwidth. An extra filter composed of 22nF + 2,2kΩ in the correction circuit proved to be successful in preventing the amplifier to oscillate at high frequencies. The resulting bandwidth is excellent between 20Hz and 20kHz.
+### Correction
+
+The correction filter is one of the main tweak of this schematic. As the correction triode subtracts the output to the input, it is important to be able to tune the constant part of the summation.  
+
+    ΔV = A × ( ΔVin - β.ΔVout )
+
+Where
+
+ * ΔV is the differential correction that is applied on the 6N2P non inverter tube's grid.
+ * A is the amplification factor of the 6N16B anode loaded stage (A = 22 with 23.5kΩ load).
+ * ΔVin is the input signal variation taken from the volume potentiometer.
+ * ΔVout is the output signal sent to the speakers.
+ * β is the ratio of the output signal put on the 6N16B's cathode trough the 20kΩ potentiometer and the cathode's 410Ω divider.
+
+In a perfect amplifier, the β ratio should be tuned to get `ΔVin - β.ΔVout = k` with `k` constant. If k > 0, we create a reaction and increase the gain. If k < 0 we create a negative feedback. Since the output signal is taken from behind an output transformer, it is impossible to get `k` constant without filtering the input signal prior to the correction stage. Even if we manage to keep `k` very low under 0, the gain spikes of the OPT at the ends of its bandwidth will invariably create an oscillator.
+
+To prevent this in the high frequencies, a double RC filter has been "designed" on the input signal. To ensure the correction gain to decrease as the frequency raises, a couple C + R has been set on the 6N16B's anode. There is the same problem at the very low frequencies. Although the output transformer's response at frequencies less than 1Hz are attenuated, since there is no signal at theses frequencies, any noise will be re-injected as a reaction through the correction, especially if the phase of this noise is shifted in the amplifier. This is why it is important to make the amplifier able to handle frequencies down to < 1Hz. 
+
+This is not desirable in a conventional amplifier to prevent motor-boating effects and bad bass response. Here, the correction makes this to work properly as soon as the bass response arrives in phase with its correction. The `k` factor determined by the 20kΩ potentiometer must be tuned to ensure correction efficiency, with no reaction effect to prevent motor-boating. This can be done in a simple way :
+
+ * Measure the output gain in an 8Ω load at 1kHz.
+ * Plug the correction at 1kHz en ensure the gain _is the same_ using the 20kΩ pot.
+ * Apply sharp signal amplitude variations (20dB switch) and check there is no low frequency parasitic oscillation forming.
 
 ![schematic](schematics/JX12.png)
