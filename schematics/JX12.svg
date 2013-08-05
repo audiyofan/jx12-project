@@ -659,7 +659,7 @@ File "Documents/perso/électronique/jx12/schematics/JX12.ps" Page 1
 <path d="M848,50 L688,50 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <path d="M768,50 L768,34 800,34 752,34 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
 <g transform="matrix( 0.7    0   -0  0.7 752  18)" fill="#000000" >
-<text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="0">+230V</tspan>
+<text stroke="none" font-family="Helvetica"  font-weight="bold"  font-style="oblique" font-size="40" ><tspan x="0" y="0">+250V</tspan>
 </text></g>
 <g transform="matrix( 0.5    0   -0  0.5 1456 3426)" fill="#000000" >
 <text stroke="none" font-family="Times"  font-style="italic" font-size="40" ><tspan x="0" y="0">5W</tspan>
