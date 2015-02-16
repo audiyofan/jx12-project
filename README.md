@@ -4,7 +4,7 @@ JX12 was a secret audio project, this is why it has such stupid name. Since it i
 
     Copyright 2014 - Grégoire HUBERT
 
-This work implies the use of **LETAL VOLTAGES** causing severe injuries or death. You have been warned.
+This work implies the use of **LETHAL VOLTAGES** causing severe injuries or death. You have been warned.
 
 ## What is this secret audio project ?
 
